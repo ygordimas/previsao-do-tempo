@@ -1,5 +1,4 @@
 # Previsão do Tempo
-Aplicativo de clima e previsão do tempo criado com HTML, CSS e Javascript puro
 ---
 >Status: Projeto finalizado
 ---
