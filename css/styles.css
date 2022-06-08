@@ -125,7 +125,7 @@ header h1::after {
   align-items: center;
   justify-items: center;
   background-color: var(--secondary-acc-color);
-  margin-left: 1rem;
+  margin: 0 1rem;
   padding: 0.2rem 0;
   border-radius: 10px;
   transition: transform 0.15s ease-in;
@@ -629,17 +629,10 @@ header h1::after {
 }
 
 /******************************************/
-/************************MEDIA QUERY 1024px*/
-/******************************************/
-
-@media screen and (min-width: 1024px) and (max-width: 1199px) {
-}
-
-/******************************************/
 /************************MEDIA QUERY 980px*/
 /******************************************/
 
-@media screen and (min-width: 980px) and (max-width: 1199px) {
+@media screen and (min-width: 980px) and (max-width: 1400px) {
   .main-area {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -697,10 +690,10 @@ header h1::after {
     height: auto;
   }
   header h1 {
-    font-size: 8vw;
+    font-size: 7vw;
     padding: 0;
     line-height: 3rem;
-    margin-top: 1vw;
+    margin-top: 1.2vw;
   }
 
   header h1::after {
@@ -808,7 +801,7 @@ header h1::after {
     font-size: 9.8vw;
     padding: 0;
     line-height: 3rem;
-    margin-top: 1vw;
+    margin-top: 2vw;
   }
 
   header h1::after {
@@ -857,7 +850,7 @@ header h1::after {
     flex-direction: column;
     justify-content: center;
     border-radius: 1rem 1rem 0 0;
-    margin: 0.5rem 0 0 0;
+    margin: 1.2rem 0 0 0;
     align-self: center;
     padding: 1rem;
 
